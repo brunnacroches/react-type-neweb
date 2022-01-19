@@ -4,40 +4,7 @@
 ### `npx create-react-app my-app --template=typescript`
 
 
-### `npm test`
-
-
-### `APAGAR `
-SRC
-  - App.css
-  - App.test
-  - index.css
-  - logo.svg
-
-
-### Configurar o editorconfig
- - com o mouse botão direito `Generate .editorconfig`
-- Função: eles vão padronizar o código
-
-### Configurar o prettier
-- CTRL + P = >prettier
--"Create configuration file"
--`ANTES`
-{
-  "tabWidth": 2,
-  "useTabs": false,
-  "singleQuote": true,
-  "printWidth": 120
-}
--`DEPOIS`
-{
-  "tabWidth": 2,
-  "useTabs": false,
-  "singleQuote": true,
-  "printWidth": 120
-
-}
-
+### `npm install`
 
 ### INSTALAR BIBLIOTECAS DE ESTILIZAÇÃO E ROTEAMENTO 
 
@@ -106,6 +73,31 @@ requisão para o Back End
 #  -GLOBAL.CSS / INDEX.TSX
 
 
+  =====================>>> MUI COMPONENTES <<<=========================
+
+## INSTALAR BIBLIOTECAS DE DESENVOLVIMENTO DO MUI
+`npm install @mui/material @emotion/react @emotion/styled`
+- salvar nas dependencias do package.json
+
+## USANDO O STYLE-COMPONENTS COMO UM MOTOR DE ESTILIZAÇÃO
+`npm install @mui/material @emotion/react @emotion/styled`
+- salvar nas dependencias do package.json
+
+## Fonte Roboto
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+## Ícones de fonte
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+# Ícones SVG
+// usando npm
+`npm install @mui/icons-material`
+
+// usando yarn
+`yarn add @mui/icons-material`
+
+
+  =====================>>> MUI COMPONENTES <<<=========================
 
 _________________________________________________________________________
   =============================>>> <<<=================================
@@ -138,3 +130,5 @@ _________________________________________________________________________
 
 
   =============================>>> <<<=================================
+
+
