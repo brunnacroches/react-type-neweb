@@ -11,10 +11,12 @@
 .home {
   background-color: var(--Pale-Blue);
   background-image: url(../../assets/icon/pattern-background-desktop.svg);
+  width: 100%;
+  height: 800px;
   background-size: 100vw;
+  background-repeat: no-repeat;
   min-width: 100vw;
   min-height: 55vw;
-  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   display: flex;

@@ -6,6 +6,10 @@
   --Dark-Blue: hsl(223, 47%, 23%);
   --Purple: hsl(228, 45%, 44%);
 }
+/* 
+justify-content: center;
+  
+  position: relative; */
 
 .WebNew {
   display: flex;
@@ -21,10 +25,11 @@
   margin: auto;
   font-weight: 500;
   font-size: 16px;
-  position: absolute;
+  /* responsive  */
+  position: relative;
   /* altura do objeto em relacao a pagina  */
-  top: 10%;
-  left: 37%;
+  top: 2%;
+  left: 2%;
 }
 
 .WebNew__patternDesk {
