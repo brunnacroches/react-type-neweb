@@ -6,10 +6,6 @@
   --Dark-Blue: hsl(223, 47%, 23%);
   --Purple: hsl(228, 45%, 44%);
 }
-/* 
-justify-content: center;
-  
-  position: relative; */
 
 .WebNew {
   display: flex;
