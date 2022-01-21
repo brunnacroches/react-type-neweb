@@ -1,0 +1,155 @@
+:root {
+  --Pale-Blue: hsl(225, 100%, 94%);
+  --Bright-Blue: hsl(245, 75%, 52%);
+  --Very-Pale-Blue: hsl(225, 100%, 98%);
+  --Desaturated-Blue: hsl(224, 23%, 55%);
+  --Dark-Blue: hsl(223, 47%, 23%);
+  --Purple: hsl(228, 45%, 44%);
+}
+
+.WebNew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+  padding: 26px;
+  border-radius: 16px;
+  gap: 1rem;
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  /* altura do objeto em relacao a pagina  */
+  top: 10%;
+  left: 37%;
+}
+
+.WebNew__patternDesk {
+  width: 100%;
+  height:100%;
+}
+
+.WebNew__patternDesk__icon {
+  width: 100%;
+  height:100%;
+}
+
+
+.WebNew__hero__icon {
+  border-radius: 16px 16px 0px 0px;
+  width: 400px;
+  height: 190px;
+  margin-top: -26px;
+}
+
+.WebNew__description{
+  font-size: 15px;
+  text-align: center;
+  color: var(--Desaturated-Blue);
+  line-height: 22px;
+  padding: 0px;
+  width: 290px;
+}
+
+.WebNew__plan {
+  /* DEIXAR UM DO LADO DO OUTRO */
+  display: flex;
+  height: 90px;
+  width: 95%;
+  background-color:#f8f9fe;
+  border-radius: 10px;
+}
+
+.WebNew__plan__planMusic__icon {
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 25px 25px 25px 25px; 
+}
+
+.WebNew__plan__title {
+  padding:0;
+  margin-left: -11px;
+  margin-top:0;
+}
+
+.WebNew__plan__title__description {
+  padding: 25px 50px 5px 0px;
+  padding-left: 0px;
+  margin:0;
+  font-size: 16px;
+  font-weight: bold;
+  height: 49px;
+  font-family: 'Red Hat Display' , sans-serif;
+}
+
+.WebNew__plan__title__description__sub__price {
+  font-size: 15.5px;
+  color: var(--Desaturated-Blue);
+  display: flex;
+  height: 100%;
+  width: 100%
+}
+
+.WebNew__plan__change {
+  display: flex;
+  margin-left: 18px
+}
+
+.WebNew__plan__cange__text {
+  position:absolute;
+  padding: 40px 0px 0px 0px;
+  font-size: 14px;
+  font-family: 'Red Hat Display' , sans-serif;
+  text-decoration: underline;
+  color: #524ba9;
+  font-weight: 800;
+  /* MOUSE MUDAR NO HOVER */
+  cursor: pointer;
+}
+
+
+.WebNew__plan__cange__text:hover {
+  font-size: 14px;
+  color: #837ce7;
+}
+
+.WebNew__button__card {
+  display: flex;
+  background-color: #372be1;
+  height: 50px;
+  width: 325px;
+  border-radius: 7px;
+  box-shadow: 0px 15px 35px #a9a4f3;;
+}
+
+.WebNew__button__card:hover {
+  cursor: pointer;
+}
+
+.WebNew__button__card__text {
+  color:#f8f9fe;
+  padding: 15px 0px 0px 100px;
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.WebNew__button__cancelOrder {
+  display: flex;
+  height: 50px;
+  width: 325px;
+  font-size: 14px;
+  border-radius: 7px;
+}
+
+.WebNew__button__cancelOrder__card__text {
+  padding: 10px 0px 0px 120px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* FONTE DO TEXTO */
+  font-family: 'Red Hat Display' , sans-serif;
+  /* AFINAR O CONTAINER PRINCIPAL */
+  box-sizing: border-box;
+  
+}
+
